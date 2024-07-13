@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #08de7a;
+  }
+  
+  /* Style for scrolled menu (modify colors as desired) */
+  .scrolled {
+    background-color: #01e56f;
+  }
+  
